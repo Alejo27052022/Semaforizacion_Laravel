@@ -1,0 +1,436 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    margin: 25px;
+}
+
+/*Configuracion CSS HEADER LOGO */
+.header{
+    background: white;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 5px;
+    margin-bottom: 10px;
+}
+
+/*Configuracion CSS Header Navg*/
+.nav-space{
+    text-align: center;
+    display: flex;
+}
+
+/*Configuracion CSS Imagen */
+.imagen{
+    display: flex;
+    width: 200px;
+    height: 100px;
+    margin-left: 55px;
+}
+
+/*Configuracion CSS Navegacion*/
+.header-nav{
+    position: relative;
+    background: rgb(25, 25, 99);
+    display: block;
+    color: #fff;
+    justify-content: right;
+    padding: 8px 8px;
+    padding-right: 40px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+
+/*Configuracion CSS del Contenedor UL dentro de Navegacion*/
+.nav-menu ul{
+    display: flex;
+    align-items: center;
+    margin-left: 75px;
+}
+
+/*Configuracion CSS de las viñetas dentro de Navegacion*/
+.nav-menu li{
+    display: flex;
+    margin-right: 20px;
+    margin-left: 20px;
+    list-style-type: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/*Configuracion CSS de las referencias "a" dentro de la navegacion*/
+.nav-menu a{
+    color: white;
+    display: flex;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+/*Configuracion del Icon FontAwesome*/
+label .fa-brands{
+    margin-right: 30px;
+    font-size: 45px;
+    justify-content: right;
+    color: #cbd4d3;
+    margin-top: 30px;
+}
+
+/*Darle formato de margen al Icon FontAwesome Facebook*/
+.fa{
+    margin-left: 275px;
+}
+
+/*Darle CSS hover al formato de Icon FontAwesome Facebook*/
+label .fa:hover{
+    color: blue;
+}
+
+/*Darle CSS hover al formato de Icon FontAwesome Instagram*/
+label .ga:hover{
+    color:#b43a77;
+}
+
+/*Configuracion CSS Boton Icono User*/
+.btn{
+    list-style-type: none;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+/*Configuracion CSS del Icono User*/
+.fa-solid{
+    font-size: 30px;
+    color: white;
+}
+
+/*Configuracion CSS color Twitter*/
+label .tw:hover{
+    color: #40cde6;
+}
+
+.fa-solid:hover{
+    color: rgb(238, 238, 67);
+}
+
+.yellow{
+    display: flex;
+    width: 150px;
+    height: 7px;
+    background-color: rgb(247, 247, 0);
+    margin-top: 80px;
+    margin-left: 100px;
+    border: white;
+    opacity: 1;
+}
+
+.blue{
+    display: flex;
+    width: 150px;
+    height: 7px;
+    background-color: rgb(4, 4, 190);
+    margin-top: 80px;
+    border: white;
+}
+
+.red{
+    display: flex;
+    width: 150px;
+    height: 7px;
+    background-color: rgb(224, 3, 3);
+    margin-top: 80px;
+    border: white;
+}
+
+.in{
+    font-size: 12px;
+    border-right-style: groove;
+    border-right-color: white;
+    border-right-width: 3px;
+    padding-right: 13px;
+}
+
+.in:hover{
+    color: rgb(238, 238, 67);
+    transition: all .3s;
+}
+
+.us{
+    padding-left: 13px;
+    cursor: pointer;
+}
+
+.footer-nav{
+    background: rgb(25, 25, 99);
+    display: flex;
+    color: #fff;
+    justify-content: left;
+    align-items: center;
+    margin: 0;
+    margin-bottom: 5px;
+    padding-right: 40px;
+}
+
+.navv{
+    justify-content: right;
+}
+
+.navv li a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    font-size: 12px;
+}
+
+.navv li:hover .submenu{
+    visibility: visible;
+    opacity: 1;
+}
+
+.maps{
+    padding: 20px;
+    padding-left: 30px;
+    width: 800px;
+    height: 450px;
+    border: 0;
+}
+
+.right{
+    min-width: 300px;
+}
+
+.nav-marg{
+    text-align: center;
+    display: flex;
+}
+
+.section-title{
+    display: flex;
+    position: relative;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 20px;
+    padding-left: 150px;
+    color: white;
+}
+
+.section-title-divider{
+    display: flex;
+    width: 280px;
+    height: 7px;
+    background-color: rgb(222, 255, 102);
+    border: white;
+    margin-left: 100px;
+    border-radius: 10px;
+}
+
+.tex-cuadro{
+    width: 300px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 90px;
+    text-align: left;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    padding-left: 15px;
+    border-radius: 5px;
+    border-color: white;
+    box-shadow: 0 8px 13px rgb(black);
+    list-style-type: none;
+}
+
+.msgg{
+    height: 125px;
+}
+
+.btn-submt{
+    width: 150px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+    margin-left: 100px;
+    background-color: rgb(255, 247, 132);
+    border-color: white;
+    border-radius: 5px;
+    box-shadow: 0 10px 15px rgb(black);
+}
+
+.btn-submt:hover{
+    background: rgb(252, 240, 80);
+    cursor: pointer;
+}
+
+.contenedor{
+    flex: 1;
+    min-width: 400px;
+    padding-right: 40px;
+}
+
+.btn-user{
+    background: none;
+    border: none;
+}
+
+.modal-container {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.3);
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    pointer-events: none;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    transition: opacity 0.3s ease;
+}
+
+.show {
+    pointer-events: auto;
+    opacity: 1;
+}
+
+.modal {
+    background-color: #fff;
+    width: 600px;
+    height: 400px;
+    max-width: 100%;
+    padding: 50px 50px;
+    border-radius: 10px;
+    border-style: double;
+    border-width: 10px;
+    border-color: beige;
+    box-shadow: 10px 8px 15px rgb(1, 15, 146);
+    text-align: center;
+}
+
+.margin-modal{
+    padding: 20px;
+    display: flex;
+    padding-left: 50px;
+}
+
+.margin-modal div{
+    padding-left: 0px;
+    padding-right: 180px;
+}
+
+.usfa{
+    color: black;
+    font-size: 100px;
+}
+
+.usfai{
+    color: black;
+    font-size: 100px;
+}
+
+.usfa:hover{
+    color: #09118a;
+}
+
+.usfai:hover{
+    color: rgb(187, 1, 1);
+}
+
+.btn-close{
+    margin-top: 30px;
+    width: 125px;
+    height: 45px;
+    font-size: 14px;
+    background-color: rgb(250, 105, 105);
+    border-color: white;
+    border-radius: 12px;
+    box-shadow: 0px 12px 13px rgb(black);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn-close:hover{
+    background-color: rgb(252, 28, 28);
+}
+
+.btn-usuario{
+    margin-top: 50px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    background: none;
+}
+
+.btn-admin{
+    margin-top: 50px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    background: none;
+}
+
+.text-mod{
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+/*Responsive*/
+@media screen and (max-width: 770px) {
+    .header{
+        width: 100%;
+    }
+
+    .header-nav{
+        width: 100%;
+    }
+    .nav-space .fa{
+        display: none;
+    }
+
+    .nav-space .ga{
+        display: none;
+    }
+
+    .nav-space .tw{
+        display: none;
+    }
+
+    .header-nav{
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 840px) {
+    .yellow{
+        display: none;
+        width: 100%;
+    }
+
+    .blue{
+        display: none;
+        width: 100%;
+    }
+
+    .red{
+        display: none;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .contenedor{
+        display: none;
+    }
+}
+

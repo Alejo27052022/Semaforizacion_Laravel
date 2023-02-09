@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=true"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/mapa.css">
+    <title>Formulario de Registro de Usuario</title>
+</head>
+
+<body>
+    <div class="container" id="advanced-search-form">
+        <h2>Datos Personales</h2>
+        <form>
+            <div class="form-group">
+                <label for="dni">Cédula</label>
+                <input type="text" class="form-control" placeholder="Cédula" id="dni" required>
+            </div>
+            <div class="form-group">
+                <label for="first-name">Nombre</label>
+                <input type="text" class="form-control" placeholder="Nombre" id="first-name" required>
+            </div>
+            <div class="form-group">
+                <label for="last-name">Apellido</label>
+                <input type="text" class="form-control" placeholder="Apellido" id="last-name" required>
+            </div>
+            <div class="form-group">
+                <label for="number">Telefono</label>
+                <input type="text" class="form-control" placeholder="Telefono" id="number" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="text" class="form-control" placeholder="Email" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Contraseña</label>
+                <input type="password" class="form-control" placeholder="Contraseña" id="password" required>
+            </div>
+            <div class="form-group">
+                <label for="address">Ubicacion</label>
+            </div>
+            <article id="mapa">
+            </article>
+
+            <div class="clearfix"></div>
+            <button type="submit" class="btn btn-info btn-lg btn-responsive" id="search"> <span class="glyphicon glyphicon-search"></span> Guardar</button>
+        </form>
+    </div>
+    <script src="assets/js/maps.js"></script>
+</body>
+
+</html>

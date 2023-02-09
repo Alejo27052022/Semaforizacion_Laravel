@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    background: linear-gradient(to right, #fff991, #1f9ce4, #f07d72 );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+img{
+    display: block;
+    width: 125px;
+    height: 125px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    text-align: center;
+    box-shadow: 0 10px 13px rgb(0, 0, 0, 0.7);
+    border-radius: 75px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+    text-align: center;
+    padding: 20px 25px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.7);
+    border-radius: 20px;
+    border-color: white;
+    border-style: double;
+}
+
+form label{
+    margin-bottom: 35px;
+}
+
+form label .fa-solid{
+    font-size: 30px;
+    color: #0e135f;
+    margin-right: 10px;
+}
+
+form label input{
+    outline: none;
+    border: none;
+    color: black;
+    background: transparent;
+    border-bottom: solid 3px #101544;
+    padding: 0 7px;
+    font-size: 16px;
+}
+
+form label input::placeholder{
+    color: rgba(37, 37, 37, 0.5);
+}
+
+form .link{
+    color: #252525;
+    margin-bottom: 15px;
+}
+
+form button{
+    display: inline-block;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 17px;
+    border-radius: 10px;
+    width: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.btn1{
+    display: inline-block;
+    color: black;
+    background: none;
+    margin: 0;
+    padding-top: 0;
+}
+
+.btn2{
+    display: inline-block;
+    background: rgb(27, 85, 245);
+    box-shadow: 0 10px 15px rgb(0, 0, 0, 0.7);
+    font-weight: bold;
+    margin: 0;
+    margin-right: 15px;
+}
+
+.enlace{
+    display: inline;
+    border: 0;
+    background: none;
+    text-decoration: none;
+    color: white;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home{
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    cursor: pointer;
+    margin-bottom: 0px;
+    background: none;
+}
