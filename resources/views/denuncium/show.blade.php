@@ -45,7 +45,7 @@ $data=$resultado->fetchAll(PDO::FETCH_ASSOC);
     <!-- ANIMATE CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCktZgO4Z9LiB1xCIvW4lmwTKGZXAz6VkM&callback=showMap"
+    <script src="https://maps.googleapis.com/maps/api/js?key=___&callback=showMap"
   async defer></script>
 
     <title>Denuncias</title>
